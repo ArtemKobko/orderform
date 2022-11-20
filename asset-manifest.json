@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/orderform/static/css/main.494aa429.css",
+    "main.js": "/orderform/static/js/main.1ec84cbd.js",
+    "static/media/bg.jpg": "/orderform/static/media/bg.5efbe98b187d08ce94b5.jpg",
+    "index.html": "/orderform/index.html",
+    "main.494aa429.css.map": "/orderform/static/css/main.494aa429.css.map",
+    "main.1ec84cbd.js.map": "/orderform/static/js/main.1ec84cbd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.494aa429.css",
+    "static/js/main.1ec84cbd.js"
+  ]
+}
