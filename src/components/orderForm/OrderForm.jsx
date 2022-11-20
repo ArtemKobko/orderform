@@ -21,7 +21,7 @@ function OrderForm() {
         payload[item.name] = (item.type === 'time') ? item.value : item.valueAsNumber || item.value;
       }
     });
-    if (name && preparationTime && type && type === 'pizza' ? dishOptions && diameter : dishOptions) {
+    if (name && preparationTime && type && (type === 'pizza' ? dishOptions && diameter : dishOptions)) {
       axios.post('https://frosty-wood-6558.getsandbox.com:443/dishes', payload)
       /* eslint-disable no-console */
         .then((response) => console.log(response))
